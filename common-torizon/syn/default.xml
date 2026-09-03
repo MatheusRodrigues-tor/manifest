@@ -14,7 +14,8 @@
   <project name="sdk" path="layers" remote="synaptics" revision="2021cc644a7067ea8fe7c427eb764523ac4e03da"/>
   <project name="meta-updater" path="layers/meta-updater" remote="uptane" revision="ecc4dbbfd062a8bd190c56858c661c437ce92d25"/>
 
-  <project name="meta-toradex-torizon" path="layers/meta-toradex-torizon" remote="torizon" revision="adc87e3cf3800c6022dbbf663f150b169c9166fd">
+  <project name="meta-torizon" path="layers/meta-torizon" remote="torizon" revision="adc87e3cf3800c6022dbbf663f150b169c9166fd"/>
+  <project name="meta-torizon-bsp" path="layers/meta-torizon-bsp" remote="torizon" revision="adc87e3cf3800c6022dbbf663f150b169c9166fd">
     <linkfile dest="setup-environment" src="scripts/setup-environment"/>
   </project>
 </manifest>
