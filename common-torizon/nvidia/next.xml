@@ -3,6 +3,8 @@
   <remote alias="repo" fetch="https://github.com/OE4T" name="tegra"/>
   <remote alias="repo" fetch="https://git.yoctoproject.org" name="yp"/>
   <remote alias="repo" fetch="https://github.com/openembedded" name="oe"/>
+  <remote alias="repo" fetch="https://github.com/iris-GmbH" name="iris"/>
+
 
   <remote alias="repo" fetch="https://github.com/uptane"  name="uptane"/>
   <remote alias="repo" fetch="https://github.com/torizon" name="torizon"/>
@@ -15,6 +17,8 @@
   <project name="meta-yocto" remote="yp" path="layers/meta-yocto" revision="master" upstream="master"/>
 
   <project name="meta-virtualization" remote="yp" path="layers/meta-virtualization" revision="master" upstream="master"/>
+
+  <project name="meta-cyclonedx" path="layers/meta-cyclonedx" remote="iris" revision="main"/>
 
   <project name="meta-tegra" remote="tegra" path="layers/meta-tegra" revision="master" upstream="master"/>
 
