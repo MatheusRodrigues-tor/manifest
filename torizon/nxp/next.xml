@@ -49,7 +49,8 @@
   <project name="meta-nxp-demo-experience" remote="nxp-support" path="sources/meta-nxp-demo-experience" revision="refs/tags/rel_imx_6.6.52_2.2.0" upstream="master"/>
 
   <project name="meta-updater" path="sources/meta-updater" remote="uptane"/>
-  <project name="meta-toradex-torizon" path="sources/meta-toradex-torizon" remote="torizon" revision="master">
+  <project name="meta-torizon" path="sources/meta-torizon" remote="torizon" revision="master"/>
+  <project name="meta-torizon-bsp" path="sources/meta-torizon-bsp" remote="torizon" revision="master">
     <linkfile dest="setup-environment" src="scripts/setup-environment"/>
   </project>
 </manifest>
