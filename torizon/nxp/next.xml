@@ -16,9 +16,11 @@
   <remote alias="repo" fetch="https://github.com/torizon" name="torizon"/>
 
 
-  <default sync-j="4" sync-s="true" revision="scarthgap" upstream="scarthgap"/>
+  <default sync-j="4" sync-s="true" revision="master" upstream="master"/>
 
-  <project name="poky" remote="yp" path="sources/poky"/>
+  <project name="openembedded-core" remote="oe" path="sources/openembedded-core" revision="master" upstream="master"/>
+  <project name="bitbake" path="sources/openembedded-core/bitbake" remote="oe" revision="master"/>
+  <project name="meta-yocto" remote="yp" path="sources/meta-yocto" revision="master" upstream="master"/>
   <project name="meta-openembedded" remote="oe" path="sources/meta-openembedded"/>
   <project name="meta-clang" remote="kraj" path="sources/meta-clang"/>
 
@@ -36,19 +38,22 @@
   <project name="meta-timesys" remote="timesys" path="sources/meta-timesys"/>
   <project name="meta-virtualization" remote="yp" path="sources/meta-virtualization"/>
 
-  <project name="meta-imx" path="sources/meta-imx" remote="nxp" revision="scarthgap-6.6.52-2.2.0">
+  <!-- meta-imx has no "master" branch; pinned to newest codename branch (wrynose) instead of scarthgap.
+       TODO: check periodically for a newer codename branch and bump this to it. -->
+  <project name="meta-imx" path="sources/meta-imx" remote="nxp" revision="wrynose-6.18.20-2.0.0">
     <linkfile src="tools/imx-setup-release.sh" dest="imx-setup-release.sh"/>
   </project>
-  <project name="meta-imx-frdm" path="sources/meta-imx-frdm" remote="nxp-support" revision="lf-6.6.36-2.1.0">
-    <linkfile dest="imx-frdm-setup.sh" src="tools/imx-frdm-setup.sh"/>
+  <project name="meta-freescale-ml" remote="community" path="sources/meta-freescale-ml" revision="master" upstream="master"/>
+  <project name="meta-imx" path="sources/meta-imx-frdm" remote="nxp" revision="wrynose-6.18.20-2.0.0">
+    <linkfile dest="imx-frdm-setup.sh" src="tools/imx-setup-release.sh"/>
   </project>
 
-  <project name="meta-nxp-connectivity" remote="nxp" path="sources/meta-nxp-connectivity" revision="refs/tags/rel_imx_6.6.52_2.2.0" upstream="imx_matter_2024_q3-post"/>
-  <project name="meta-nxp-demo-experience" remote="nxp-support" path="sources/meta-nxp-demo-experience" revision="refs/tags/rel_imx_6.6.52_2.2.0" upstream="scarthgap-6.6.52-2.2.0"/>
+  <project name="meta-nxp-connectivity" remote="nxp" path="sources/meta-nxp-connectivity" revision="refs/tags/rel_imx_6.18.20_2.0.0" upstream="imx_matter_2026_q1-post" />
+  <project name="meta-nxp-demo-experience" remote="nxp-support" path="sources/meta-nxp-demo-experience" revision="refs/tags/rel_imx_6.18.20_2.0.0" upstream="wrynose-6.18.20-2.0.0" />
 
   <project name="meta-updater" path="sources/meta-updater" remote="uptane"/>
-  <project name="meta-torizon" path="layers/meta-torizon" remote="torizon" revision="master"/>
-  <project name="meta-torizon-bsp" path="layers/meta-torizon-bsp" remote="torizon" revision="master">
+  <project name="meta-torizon" path="sources/meta-torizon" remote="torizon" revision="master"/>
+  <project name="meta-torizon-bsp" path="sources/meta-torizon-bsp" remote="torizon" revision="master">
     <linkfile dest="setup-environment" src="scripts/setup-environment"/>
   </project>
 </manifest>
