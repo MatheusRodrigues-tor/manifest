@@ -10,6 +10,7 @@
   <project name="meta-intel" path="layers/meta-intel" remote="yocto" revision="master"/>
   <project name="meta-updater" path="layers/meta-updater" remote="uptane" revision="master"/>
   <project name="meta-virtualization" path="layers/meta-virtualization" remote="yocto" revision="master"/>
+  <project name="git/meta-security" path="layers/meta-security" remote="yocto" revision="master"/>
   <project name="meta-openembedded" path="layers/meta-openembedded" remote="oe" revision="master"/>
   <project name="openembedded-core" path="layers/oe-core" remote="oe" revision="master"/>
   <project name="meta-yocto" path="layers/meta-yocto" remote="yocto" revision="master"/>
