@@ -13,6 +13,7 @@
   <project name="openembedded-core" remote="oe" path="layers/openembedded-core" revision="master" upstream="master"/>
   <project name="bitbake" path="layers/openembedded-core/bitbake" remote="oe" revision="2.8"/>
   <project name="meta-yocto" remote="yp" path="layers/meta-yocto" revision="master" upstream="master"/>
+  <project name="meta-security" path="layers/meta-security" remote="yp" revision="master"/>
 
   <project name="meta-virtualization" remote="yp" path="layers/meta-virtualization" revision="master" upstream="master"/>
 
