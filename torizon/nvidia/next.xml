@@ -6,6 +6,7 @@
 
   <remote alias="repo" fetch="https://github.com/uptane"  name="uptane"/>
   <remote alias="repo" fetch="https://github.com/torizon" name="torizon"/>
+  <remote alias="repo" fetch="https://github.com/iris-GmbH" name="iris"/>
 
   <default sync-j="4" sync-s="true"/>
 
