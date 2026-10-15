@@ -21,16 +21,16 @@
   <project name="meta-updater" path="layers/meta-updater" remote="uptane" revision="14d693d72551d8759c818b00d32bcdf9fc4c6063"/>
 
   <project name="meta-browser" path="layers/meta-browser" remote="ossystems" revision="85eeb6b50883d22c977396f5e8fe211a7961cf2e"/>
-  <project name="meta-clang" path="layers/meta-clang" remote="kraj" revision="7cf54f70cebe897d844f649024322bb096d7cb50"/>
-  <project name="meta-openembedded" path="layers/meta-openembedded" remote="oe" revision="d8cc4e44001c7257273d290ce8c4496e93d32841"/>
-  <project name="meta-swupdate" path="layers/meta-swupdate" remote="swupdate" revision="cb709b865a56be48cb17cbad149b69f793f3888b"/>
-  <project name="meta-virtualization" path="layers/meta-virtualization" remote="yp" revision="9d0007a369deb4a6346f5ab7a9e6d432a8ed14fe" upstream="scarthgap"/>
+  <project name="meta-clang" path="layers/meta-clang" remote="kraj" revision="cc29beb210ab94eacc53bbd67e287e4e33ede342"/>
+  <project name="meta-openembedded" path="layers/meta-openembedded" remote="oe" revision="b5874ea07d69919d9b40d59f2c2f0bbd24bc3259"/>
+  <project name="meta-swupdate" path="layers/meta-swupdate" remote="swupdate" revision="7da41c5f2eb58c95cf5b312cf0b34fdfc7bb1e4e"/>
+  <project name="meta-virtualization" path="layers/meta-virtualization" remote="yp" revision="f980aefbc8b3eeafb8d144e7fdac3c3b701a4fea" upstream="scarthgap"/>
   <project name="meta-selinux" path="layers/meta-selinux" remote="yp" revision="48f745109a1ecea9afe2a74d41dbd90fa7b370af" upstream="scarthgap"/>
-  <project name="meta-lts-mixins" path="layers/meta-lts-mixins" remote="yp" revision="c19b6da5a3afd3c892b3b1b44983e993ac6d5308" upstream="scarthgap/rust"/>
+  <project name="meta-lts-mixins" path="layers/meta-lts-mixins" remote="yp" revision="9987a76095ee751864e55e418539f42b9c3b8a6b" upstream="scarthgap/rust"/>
   <project name="meta-qt5" path="layers/meta-qt5" remote="qt" revision="554fc20c326a9b205169331644f0cb471619e63c" upstream="upstream/scarthgap"/>
-  <project name="poky" path="layers/poky" remote="yp" revision="b56134ff90dec996e8aae45ed7e6ad6b1d5a84a0" upstream="scarthgap"/>
+  <project name="poky" path="layers/poky" remote="yp" revision="b2c16f1e69130558574e1363aff944647fa9cd11" upstream="scarthgap"/>
 
-  <project name="meta-toradex-torizon" path="layers/meta-toradex-torizon" remote="torizon" revision="6869626aa2e98cd0863f0d698fb592c7d645dcf0">
+  <project name="meta-toradex-torizon" path="layers/meta-toradex-torizon" remote="torizon" revision="ac7482596231f31e4e1ddb300e67eb58dfcc7ee1">
     <linkfile dest="setup-environment" src="scripts/setup-environment"/>
   </project>
 </manifest>
