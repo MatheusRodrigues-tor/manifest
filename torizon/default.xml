@@ -21,7 +21,7 @@
   <project name="meta-cyclonedx" path="layers/meta-cyclonedx" remote="iris" revision="fe9d82129a667b02e48d12ee44beb3d1920ec3ab"/>
   <project name="meta-toradex-distro.git" path="layers/meta-toradex-distro" remote="tdx" revision="772c237011e1eea2dbc9150ba614be7fd6a4cbf9"/>
   <project name="meta-toradex-security" path="layers/meta-toradex-security" remote="toradex" revision="ef4630157f00434cd67d6d3f7ec725a474aefdb6"/>
-  <project name="meta-toradex-torizon" path="layers/meta-toradex-torizon" remote="torizon" revision="ac7482596231f31e4e1ddb300e67eb58dfcc7ee1">
+  <project name="meta-toradex-torizon" path="layers/meta-toradex-torizon" remote="torizon" revision="51a1122fb32698412b19edeb94ae771e249d94a3">
     <linkfile dest="setup-environment" src="scripts/setup-environment"/>
   </project>
 </manifest>
