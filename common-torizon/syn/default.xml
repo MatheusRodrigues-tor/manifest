@@ -28,7 +28,7 @@
   <project name="meta-selinux" path="layers/meta-selinux" remote="yp" revision="48f745109a1ecea9afe2a74d41dbd90fa7b370af" upstream="scarthgap"/>
   <project name="meta-lts-mixins" path="layers/meta-lts-mixins" remote="yp" revision="9987a76095ee751864e55e418539f42b9c3b8a6b" upstream="scarthgap/rust"/>
   <project name="meta-qt5" path="layers/meta-qt5" remote="qt" revision="554fc20c326a9b205169331644f0cb471619e63c" upstream="upstream/scarthgap"/>
-  <project name="poky" path="layers/poky" remote="yp" revision="b2c16f1e69130558574e1363aff944647fa9cd11" upstream="scarthgap"/>
+  <project name="poky" path="layers/poky" remote="yp" revision="52bd17a87938e6b31ca8a4a9a707e62354a67fd1" upstream="scarthgap"/>
 
   <project name="meta-toradex-torizon" path="layers/meta-toradex-torizon" remote="torizon" revision="3f806297d1f846080f0f45e1ebc713e10739cbbb">
     <linkfile dest="setup-environment" src="scripts/setup-environment"/>

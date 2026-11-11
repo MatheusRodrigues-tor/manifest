@@ -12,7 +12,7 @@
     except for layer meta-toradex-torizon which in the integration manifest is referenced by branch but here should
     be referenced by the corresponding hash.
   -->
-  <project name="poky" path="layers/poky" remote="yocto" revision="b2c16f1e69130558574e1363aff944647fa9cd11"/>
+  <project name="poky" path="layers/poky" remote="yocto" revision="52bd17a87938e6b31ca8a4a9a707e62354a67fd1"/>
   <project name="meta-intel" path="layers/meta-intel" remote="yocto" revision="5d153e35b4e752505efeae368f188fac5e31cf33"/>
   <project name="meta-updater" path="layers/meta-updater" remote="uptane" revision="14d693d72551d8759c818b00d32bcdf9fc4c6063"/>
   <project name="meta-virtualization" path="layers/meta-virtualization" remote="yocto" revision="f980aefbc8b3eeafb8d144e7fdac3c3b701a4fea"/>
